@@ -1,0 +1,15 @@
+.custom{
+    background-color: #1C2951;
+}
+
+.zigzag {
+    border-bottom: 4px solid transparent;
+    border-image: 
+      repeating-linear-gradient(
+        -45deg,
+        #4dc0b5,
+        #4dc0b5 10px,
+        transparent 10px,
+        transparent 20px
+      ) 30;
+  }
